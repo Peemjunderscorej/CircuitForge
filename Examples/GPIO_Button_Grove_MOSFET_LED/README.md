@@ -52,7 +52,9 @@ The switch symbols use pins 1 and 3 of a 4-pin 6x6 mm tactile switch. Pins 1-2 a
 
 | File | What it is |
 |---|---|
-| `outputs/GPIO_Button_Grove_MOSFET_LED_R1_1.zip` / `.json` | EasyEDA source. Import in EasyEDA Pro with Quick Start > Import Standard. |
+| `outputs/GPIO_Button_Grove_MOSFET_LED.epro` | Native EasyEDA Pro project, including the assigned footprints. Open with File > Open Project, or import it. |
+| `outputs/GPIO_Button_Grove_MOSFET_LED_Schematic.pdf` | Both sheets as exported from EasyEDA Pro. |
+| `outputs/GPIO_Button_Grove_MOSFET_LED_R1_1.zip` / `.json` | Generated EasyEDA source (wiring, values and notes only). Import with Quick Start > Import Standard. |
 | `outputs/*.png`, `outputs/*.svg` | Previews rendered from the source. |
 | `outputs/Netlist_EasyEDA_Pro_2026-10-05.tel` | Netlist exported from the EasyEDA Pro project. |
 | `outputs/Connectivity_Check.txt` | Pin-by-pin check of the source against the intended nets. |
@@ -61,7 +63,7 @@ The switch symbols use pins 1 and 3 of a 4-pin 6x6 mm tactile switch. Pins 1-2 a
 | `verify_circuits.py` | Checks every component pin against the intended nets. |
 | `render_source.py` | Renders the previews (needs `pymupdf`). |
 
-The source file carries the wiring, values and notes. The footprints for Q1, the switches and the connectors were assigned in EasyEDA Pro and are recorded in `outputs/Footprints.txt` and the netlist; re-importing the source does not bring them back. A native EasyEDA Pro project file (`.epro`) is not included yet.
+The `.epro` file is the complete design. The generated source carries the wiring, values and notes only: the footprints for Q1, the switches and the connectors were assigned in EasyEDA Pro, so re-importing the generated source does not bring them back.
 
 ## What has been checked
 
