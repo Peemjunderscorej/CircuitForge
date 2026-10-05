@@ -1,0 +1,12 @@
+Footprints assigned in EasyEDA Pro (project GPIO_Button_Grove_MOSFET_LED), 2026-10-04
+Names are taken from the netlist exported from EasyEDA Pro on 2026-10-05.
+
+Q1        BSS138               SOT-23-3_L2.9-W1.3-P0.92-LS2.4-BR   1=G 2=S 3=D
+SW1, SW2  6x6 tactile, TH      SW-TH_4P-L6.0-W6.0-P4.50-LS6.1      symbol pins 1 and 3; pads 1-2 joined, 3-4 joined; pads 2 and 4 unmapped
+J1        1x3 header 2.54 mm   HDR-TH_3P-P2.54-V-M                 1=GPIO_IN 2=3V3 3=GND
+J2        JST XH 2-pin         CONN-TH_B2B-XH-A-M                  1=SW_RAW 2=GND
+J3        Grove HY2.0 4-pin    CONN-TH_4P-P2.00_HC-HY2.0-4A-TW     1=BTN_N 2=LED_CTL 3=3V3 4=GND
+R1-R6     R0603      C1-C3  C0603      D1  LED0603
+
+EasyEDA Pro schematic design check after assignment: Fatal 0, Error 0, Warning 0, Info 1 (switch pads 2 and 4 have no pin).
+Footprints were chosen by pad layout and name; they have not been checked against manufacturer drawings.
